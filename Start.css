@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+    background-image: url("naa_logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 80%;
+    background-attachment: fixed;
+
+  }
+  #box1{ 
+    width: 70%;
+    height: 80px;         
+    word-wrap:break-word;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom:2.5px solid black;
+    margin-top: 0px;
+    margin-left: 15%;
+    background-size: 400px 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    color: rgb (255,255,255);
+  }
+
+  #innerbox1a{
+    width: 25%;
+    height: 80px;
+    border: 1px solid black;
+    float: left; 
+    text-align: center;
+  }
+  .title{
+    width: 100% !important;
+    background-color: #0e3c6e;
+    color: white;
+  }
+  #innerbox1b{
+    width: 49.52%;
+    height: 80px;
+    border: 1px solid black;
+    float: left; 
+    text-align: center;
+  }
+  #innerbox1c{
+    width: 25%;
+    height: 80px;
+    border: 1px solid black;
+    float: left; 
+    text-align: center;
+  }
+ h2{
+  margin-top: 20px;
+ }
+#box2{ 
+  width: 70%;
+  height: 474px;
+  border-top: 2.5px solid black;
+  border-bottom: 2.5px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-collapse: collapse;
+  margin-left: 15%;
+  word-wrap:break-word;
+  float: left;  
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  } 
+  #innerbox2a{
+    width: 25%;
+    height: 474px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    float: left; 
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;
+  }
+   #innerbox2b{
+    width: 49.52%;
+    height: 474px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    float: left; 
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;
+  }
+   #innerbox2c{
+    width: 25%;
+    height: 474px;
+    border: 1px solid black;
+    border-bottom: none;
+    border-collapse: collapse;
+    float: left; 
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;
+  }
+  .select_qrup{
+    margin: 10px;
+    width: 85%;
+    height: 30px;
+    text-align: center;
+  }
+  #button_start{
+    margin-top: 0.5%;
+    border-radius: 5px;
+    background-color: #0e3c6e;
+    color: white;
+    font-size: 25px;
+    width: 15%;
+    height: 40px;
+    position: relative;
+  }
+  #button_start:hover{
+    background-color: rgb(116, 1, 1);
+  }
+
+  .checkbox{
+    text-align: left;
+    padding-left: 20px;
+  }
+#box4{ 
+  width: 100%;
+  height: 250px;  
+  background-color: rgba(255, 255, 255, 0.7);
+  word-wrap:break-word;
+  text-align: center;
+  float: left;
+  border: 3px solid black;
+  border-top:2.5px solid black;
+  margin-left: 0;
+  margin-bottom: 40px;
+  text-align: center;
+  }  
+  #finish{
+    margin-top: 1%;
+    width: 13%;
+    height: 35px;
+    background-color: #0e3c6e;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+  #finish:hover{
+    background-color: rgb(116, 1, 1);
+    transition: .5s;
+  }
+#time{
+  font-size: 100px;
+}

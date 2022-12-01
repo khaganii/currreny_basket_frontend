@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Questions</title>
+    
+</head>
+<body style="background-color: rgb(215, 248, 224);" onload="loadPage()">
+    <br>
+    <div style="margin-left: 15%; width: 65%; display: flex; justify-content: space-around;">
+        <select style="height: 30px; font-size: 20px;" id="subjects">
+            <option>Mikroiqtisadiyyat</option>
+            <option>Makroiqtisadiyyat</option>
+            <option>Maliyyə</option>
+            <option>Vergilər və vergitutma</option>
+            <option>Biznesin əsasları</option>
+            <option>Hava nəqliyyatının idarə edilməsi</option>
+            <option>Marketinq</option>
+            <option>Menecment</option>
+        </select>
+
+        <div id="numbers">  
+
+        </div>
+        
+        <select id="currency-select" style="height: 30px; font-size: 20px;" onchange="show_numbers()">
+            <option value="AZN_AZƏRBAYCAN MANATI_100">AZN(100)</option>
+            <option value="SDR_BVF VALYUTASI_90">SDR(90)</option>
+            <option value="GBP_BB funt sterlinqi_80">GBP(80)</option>
+            <option value="CHF_İSVEÇRƏ FRANKI_70">GBP(70)</option>
+            <option value="USD_ABŞ DOLLARI_60">USD(60)</option>
+            <option value="EUR_AVRO_50">EUR(50)</option>
+            <option value="JPY_YAPONİYA YENİ_40​">JPY(40)</option>
+            <option value="CAD_KANADA DOLLARI_30​">CAD(30)</option>
+            <option value="AUD_AVSTRALİYA DOLLARI​_20​">AUD(20)</option>
+            <option value="SEK_İSVEÇ KRONU​_10​">SEK(10)</option>
+        </select>
+    </div>
+    <p id="selected-number" hidden></p>
+    <br><br><br>
+    <div style="font-size: 18px; margin-left: 15%;" >
+        Question text: <input class="input" style="font-size: 20px; height: 35px; background-color: rgb(118, 181, 206);" type="text" size="100" id="text"><br><br><hr style="margin-left: 0; width: 71%;"><br>
+        Answer__A):  <input class="input" style="font-size: 20px; height: 35px; background-color: rgb(118, 181, 206);" type="text" size="100" id="Answer__A"><br><br><hr style="margin-left: 0; width: 71%;"><br>
+        Answer__B):  <input class="input" style="font-size: 20px; height: 35px; background-color: rgb(118, 181, 206);" type="text" size="100" id="Answer__B"><br><br><hr style="margin-left: 0; width: 71%;"><br>
+        Answer__C):  <input class="input" style="font-size: 20px; height: 35px; background-color: rgb(118, 181, 206);" type="text" size="100" id="Answer__C"><br><br><hr style="margin-left: 0; width: 71%;"><br>
+        Answer__D):  <input class="input" style="font-size: 20px; height: 35px; background-color: rgb(118, 181, 206);" type="text" size="100" id="Answer__D"><br><br><hr style="margin-left: 0; width: 71%;"><br>
+        Answer__E):  <input class="input" style="font-size: 20px; height: 35px; background-color: rgb(118, 181, 206);" type="text" size="100" id="Answer__E"><br><br>
+
+        <input style="margin-left: 40%; font-size: 18px;" id="submit" type="submit" onclick="submit()">
+    </div>
+
+    <script src="enter_questions.js"></script>
+</body>
+</html>

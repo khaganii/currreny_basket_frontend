@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition Questions</title>
+    <link rel="stylesheet" href="show_questions.css">
+</head>
+<body onload="load_page()">
+
+    <div style = "position: relative;">
+        <div id="background">
+            <div id="box1">
+                <div id="innerbox1a" class="title">
+                    <p><h2>
+                        “VALYUTA SƏBƏTİ” İQTİSADİ FƏNLƏR OLİMPİADASI – 2022
+                    </h2></p>
+                </div>
+            </div>
+            <div id="box1">
+                <div id="innerbox1a">
+                    <h2 id="team1">
+                    </h2>
+                </div>
+                <div id="innerbox1b">
+                    <h2 id="level">
+                    </h2>
+                </div>
+                <div id="innerbox1c">
+                    <h2 id="team2">
+                    </h2>
+                </div>
+            </div>
+            <div id="box2">
+                <div id="innerbox2">
+                    <div id="innerbox2a">
+                        <ol class="ol_innerbox2" id="memberlist_team1">
+
+                        </ol>
+                        <hr>
+                        <div class="checkbox" id="categoties_team1">
+                            
+                        </div>
+                        <hr>
+                        <div id="points_team1" style="width: auto;">
+
+                        </div>
+                        <br>
+                    </div>
+                    <div id="innerbox2b" style=" display: flex;   justify-content: space-between;">
+                        <div>
+                            <select id="currency-select" style="height: 35px; font-size: 25px;" onchange="create_square()">
+                                <option value="AZN_AZƏRBAYCAN MANATI_100">AZN(100)</option>
+                                <option value="SDR_BVF VALYUTASI_90">SDR(90)</option>
+                                <option value="GBP_BB funt sterlinqi_80">GBP(80)</option>
+                                <option value="CHF_İSVEÇRƏ FRANKI_70">CHF(70)</option>
+                                <option value="USD_ABŞ DOLLARI_60">USD(60)</option>
+                                <option value="EUR_AVRO_50">EUR(50)</option>
+                                <option value="JPY_YAPONİYA YENİ_40​">JPY(40)</option>
+                                <option value="CAD_KANADA DOLLARI_30​">CAD(30)</option>
+                                <option value="AUD_AVSTRALİYA DOLLARI​_20​">AUD(20)</option>
+                                <option value="SEK_İSVEÇ KRONU​_10​">SEK(10)</option>
+                            </select>
+                        </div>
+                        <br><br>
+                        <div id="question-area">
+                        </div>
+                        <div id="square">
+                        </div>
+                    </div>
+                    <div id="innerbox2c">
+
+                        <ol class="ol_innerbox2" id="memberlist_team2" style="width: auto;">
+
+                        </ol>
+                        <hr>
+                        <div class="checkbox" id="categoties_team2" style="width: auto;">
+
+                        </div>
+                        <hr>
+                        <div id="points_team2" style="width: auto;">
+
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div id="box4">
+                <h2>Sualı cavablandırmaq üçün qalan vaxtınız:</h2>
+                <div id="timer_span_div"><span id="timer">01:00</span></div>
+                <button id="finish" class="endButtons" name="button">Oyunu Bitir</button>
+                <button id="clear" class="endButtons" name="button">Sıfırla</button>
+            </div>
+        </div>
+    </div>
+<script src="one-question-square.js"></script>
+</body>
+</html>

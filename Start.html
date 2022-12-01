@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>START</title>
+    <link rel="stylesheet" href="Start.css">
+</head>
+<body onload="loadStart()">
+    <div style = "position: relative; margin-top: 145px;">
+        <div id="background">
+            <div id="box1">
+                <div id="innerbox1a" class="title">
+                    <h2>
+                        “VALYUTA SƏBƏTİ” İQTİSADİ FƏNLƏR OLİMPİADASI – 2022
+                    </h2>
+                </div>
+            </div>
+            <div id="box1">
+                <div id="innerbox1a">
+                    <h2 id="team1">
+
+                    </h2>
+                </div>
+                <div id="innerbox1b">
+                    <h2 id="level">
+                        1/4 Final
+                    </h2>
+                </div>
+                <div id="innerbox2c">
+                    <h2 id="team2">
+
+                    </h2>
+                </div>
+            </div>
+            <div id="box2">
+                <div id="innerbox2">
+                    <div id="innerbox2a">
+                       <select name="" class="select_qrup" style="font-size: 20px;" id="select_team1" onchange="selectChanged()">
+
+                       </select>
+                        <hr>
+                        <div class="checkbox">
+                            <br>
+                            <input type="checkbox" name="AZN_100_AZƏRBAYCAN MANATI" class="input_checkbox_left" onchange="checkBoxChangedLeft()"> AZƏRBAYCAN MANATI (100 bal)<br><br>
+                            <input type="checkbox" name="SDR_90_BVF VALYUTASI" class="input_checkbox_left" onchange="checkBoxChangedLeft()"> BVF VALYUTASI (90 bal)<br><br>
+                            <input type="checkbox" name="GBP_80_BB FUNT STERLINQI" class="input_checkbox_left" onchange="checkBoxChangedLeft()"> BB FUNT STERLINQI (80 bal)<br><br>
+                            <input type="checkbox" name="CHF_70_İSVEÇRƏ FRANKI" class="input_checkbox_left" onchange="checkBoxChangedLeft()"> İSVEÇRƏ FRANKI (70 bal)<br><br>
+                            <input type="checkbox" name="USD_60_ABŞ DOLLARI" class="input_checkbox_left" onchange="checkBoxChangedLeft()"> ABŞ DOLLARI (60 bal)<br><br>
+                            <input type="checkbox" name="EUR_50_AVRO" class="input_checkbox_left" onchange="checkBoxChangedLeft()"> AVRO (50 bal)<br><br>
+                            <input type="checkbox" name="JPY_40_YAPONİYA YENİ" class="input_checkbox_left" onchange="checkBoxChangedLeft()"> YAPONİYA YENİ (40 bal)<br><br>
+                            <input type="checkbox" name="CAD_30_KANADA DOLLARI" class="input_checkbox_left" onchange="checkBoxChangedLeft()"> KANADA DOLLARI (30 bal)<br><br>
+                            <input type="checkbox" name="AUD_20_AVSTRALİYA DOLLARI" class="input_checkbox_left" onchange="checkBoxChangedLeft()"> AVSTRALİYA DOLLARI​ (20 bal)<br><br>
+                            <input type="checkbox" name="SEK_10_İSVEÇ KRONU" class="input_checkbox_left" onchange="checkBoxChangedLeft()"> İSVEÇ KRONU (10 bal)<br>
+                        </div><br>
+                    </div>
+                    <div id="innerbox2b">
+                        <select name="" class="select_qrup" style="font-size: 20px;" id="select_level" onchange="selectChanged()">
+                            <option value="1/4 Final">1/4 Final</option>
+                            <option value="Yarım Final">Yarım Final</option>
+                            <option value="Final">Final</option>
+                           </select>
+                            <hr>
+                            <div style="display: flex; justify-content: space-around;">
+                                <div id="left_div">
+
+                                </div>
+                                <div id="right_div">
+
+                                </div>
+                            </div>
+                    </div>
+                    <div id="innerbox2c">
+                        <select name="" class="select_qrup" style="font-size: 20px;" id="select_team2" onchange="selectChanged()">
+
+                        </select>
+                        <hr>
+                        <div class="checkbox">
+                            <br>
+                            <input type="checkbox" name="AZN_100_AZƏRBAYCAN MANATI" class="input_checkbox_right" onchange="checkBoxChangedRight()"> AZƏRBAYCAN MANATI (100 bal)<br><br>
+                            <input type="checkbox" name="SDR_90_BVF VALYUTASI" class="input_checkbox_right" onchange="checkBoxChangedRight()"> BVF VALYUTASI (90 bal)<br><br>
+                            <input type="checkbox" name="GBP_80_BB FUNT STERLINQI" class="input_checkbox_right" onchange="checkBoxChangedRight()"> BB FUNT STERLINQI (80 bal)<br><br>
+                            <input type="checkbox" name="CHF_70_İSVEÇRƏ FRANKI" class="input_checkbox_right" onchange="checkBoxChangedRight()"> İSVEÇRƏ FRANKI (70 bal)<br><br>
+                            <input type="checkbox" name="USD_60_ABŞ DOLLARI" class="input_checkbox_right" onchange="checkBoxChangedRight()"> ABŞ DOLLARI (60 bal)<br><br>
+                            <input type="checkbox" name="EUR_50_AVRO" class="input_checkbox_right" onchange="checkBoxChangedRight()"> AVRO (50 bal)<br><br>
+                            <input type="checkbox" name="JPY_40_YAPONİYA YENİ" class="input_checkbox_right" onchange="checkBoxChangedRight()"> YAPONİYA YENİ (40 bal)<br><br>
+                            <input type="checkbox" name="CAD_30_KANADA DOLLARI" class="input_checkbox_right" onchange="checkBoxChangedRight()"> KANADA DOLLARI (30 bal)<br><br>
+                            <input type="checkbox" name="AUD_20_AVSTRALİYA DOLLARI" class="input_checkbox_right" onchange="checkBoxChangedRight()"> AVSTRALİYA DOLLARI​ (20 bal)<br><br>
+                            <input type="checkbox" name="SEK_10_İSVEÇ KRONU" class="input_checkbox_right" onchange="checkBoxChangedRight()"> İSVEÇ KRONU (10 bal)<br>
+                        </div><br>
+                    </div>
+                </div>
+            </div>
+            <span id="cat-left" hidden></span>
+            <br>
+            <span id="cat-right" hidden></span>
+            <button id="button_start" onclick="submit()">Start</button>
+        </div>
+    </div>
+<script src="start.js"></script>
+</body>
+</html>
